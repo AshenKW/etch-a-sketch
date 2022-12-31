@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Etch-a-sketch | AshenKW</title>
+</head>
+<body>
+  <h1>Etch-a-sketch</h1>
+  
+  <main class="container">
+    <div class="grid-wrapper">
+    </div>
+    
+    <div class="toolbar">
+      <input type="color" name="color-picker" id="color-picker" value="#4a4545">
+      <label for="color-picker">Current color: <span class="current-color">#4a4545</span></label>
+      <hr>
+      <button class="btn eraser">Eraser</button>
+      <button class="btn rainbow">Rainbow</button>
+      <button class="btn toggle-grid">Toggle grid</button>
+      <button class="btn clear-board">Clear</button>
+      <hr>
+      <label for="grid-size">Grid size: <span class="size">16x16</span></label>
+      <input type="range" name="grid-size" id="grid-size" min="2" max="64" step="2" value="16">
+    </div>
+  </main>
+
+  <footer>Made with ❤️ by <a href="http://github.com/AshenKW" target="_blank">AshenKW</a> for <a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch" target="_blank">TheOdinProject Curriculum</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
